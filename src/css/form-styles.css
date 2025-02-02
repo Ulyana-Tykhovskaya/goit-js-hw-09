@@ -1,7 +1,7 @@
 .feedback-form {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 16px;
   border-radius: 8px;
@@ -48,7 +48,18 @@
   color: #fff;
   outline: none;
   border: none;
+  margin-left: 24px;
+  align-self: flex-start;
+}
+.btn:hover {
+  background: #6c8cff;
 }
 textarea {
   resize: none;
+}
+
+.back-link {
+  position: absolute;
+  top: 24px;
+  left: 24px;
 }
